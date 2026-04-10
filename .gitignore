@@ -1,0 +1,23 @@
+# Environnement virtuel
+venv/
+
+# Base vectorielle (générée automatiquement)
+chroma_db/
+
+# Clé API — ne jamais pousser sur GitHub
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Documents PDF (trop lourds + confidentiels)
+documents/
+
+# Streamlit
+.streamlit/
+
+# VS Code
+.vscode/venv/
+models/
